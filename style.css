@@ -1,0 +1,61 @@
+body{
+  background-image: url(image/fon.jpg);
+  padding: 100px;
+}
+.container{
+  width: 800px;
+  min-height: 800px;
+  border: 7px solid #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: #fff;
+}
+.header{
+  display: flex;
+  height: 200px;
+
+}
+.title-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin-right:12px;
+  background: url(image/fon2.jpg) no-repeat center center/ cover;
+}
+.userpic{
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background: url(image/fon3.jpg) no-repeat center center/ cover;
+}
+.content-text p{
+  width: 80%;
+}
+.content-wrapper p{
+  width: 80%;
+}
+.pic{
+  margin-top: 25px;
+  display: flex;
+  width: 800px;
+}
+.img{
+  margin-left: 10px;
+  width: 66%;
+  padding: 70px;
+  background: url(image/img1.jpg) no-repeat;
+}
+.img1{
+  margin-left: 10px;
+  width: 66%;
+  padding: 70px;
+  
+  background: url(image/img.jpg) no-repeat;
+}
+.img2{
+  width: 66%;
+  padding: 70px;
+  background: url(image/img2.jpg) no-repeat;
+}
